@@ -42,6 +42,7 @@
   },
   "devDependencies": {
     "chromedriver": "^90.0.0",
+    "cypress": "^7.3.0",
     "geckodriver": "^2.0.0"
   }
 }

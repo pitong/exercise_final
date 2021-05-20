@@ -74,7 +74,8 @@ const MenuLinkWrapper: FC<{data: Page[]}> = ({data}) => {
             onChange={(e) => setDebouncedSearchValue(e.target.value)} value={searchDebouncedValue} />
 
           <div className='inner-wrapper'>
-              <MenuLink data={filteredData} />
+              {!filteredData.length ? (<div className='no-results'>No search results</div>) : <MenuLink data={filteredData} />}
+
           </div>
       </div>
   )

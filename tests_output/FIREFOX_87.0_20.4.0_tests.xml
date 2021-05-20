@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="1">
+
+  <testsuite name="tests"
+    errors="2" failures="0" hostname="" id="" package="tests" skipped="0"
+    tests="1" time="0.000" timestamp="">
+  
+    <testcase name="Search menu link" classname="tests" time="0" assertions="2">
+
+    
+
+    
+    <error message="Error while running &#34;elementIdAttribute&#34; command: First argument passed to .elementIdAttribute() should be a web element ID string. Received undefined." type="error"><![CDATA[
+    Error: Error while running &#34;elementIdAttribute&#34; command: First argument passed to .elementIdAttribute() should be a web element ID string. Received undefined.
+    at Function.validateElementId (/Users/vladalexandruradulescu/.nvm/versions/node/v12.16.1/lib/node_modules/nightwatch/lib/api/protocol/_base-action.js:20:19)
+    at CommandInstance.command (/Users/vladalexandruradulescu/.nvm/versions/node/v12.16.1/lib/node_modules/nightwatch/lib/api/protocol/elementIdAttribute.js:15:20)
+    at /Users/vladalexandruradulescu/.nvm/versions/node/v12.16.1/lib/node_modules/nightwatch/lib/api/_loaders/command.js:158:29
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        ReferenceError: aboutAnchorNode is not defined
+       at Object.Search menu link (/Users/vladalexandruradulescu/PycharmProjects/anonos-project/anonos-project/e2e/tests.wip.js:24:36)
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+  Error: Error while running &#34;elementIdAttribute&#34; command: First argument passed to .elementIdAttribute() should be a web element ID string. Received undefined.
+   See https://nightwatchjs.org/api/elementIdAttribute.html
+  
+       at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

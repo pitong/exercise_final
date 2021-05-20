@@ -1,0 +1,17 @@
+1621470755078	geckodriver	INFO	Listening on 127.0.0.1:4444
+1621470755285	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/dw/d885zdw17jjfgdk5tclr597h0000gn/T/rust_mozprofileCzJ0zo"
+2021-05-20 03:32:36.589 firefox-bin[13696:488278] Warning: Expected min height of view: (<NSButton: 0x12da1a400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-20 03:32:36.590 firefox-bin[13696:488278] Warning: Expected min height of view: (<NSButton: 0x139568c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-20 03:32:36.591 firefox-bin[13696:488278] Warning: Expected min height of view: (<NSButton: 0x13956cc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-20 03:32:36.591 firefox-bin[13696:488278] Warning: Expected min height of view: (<NSButton: 0x13956e000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-20 03:32:36.592 firefox-bin[13696:488278] Warning: Expected min height of view: (<NSButton: 0x139568000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-20 03:32:36.592 firefox-bin[13696:488278] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x139569800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-05-20 03:32:36.593 firefox-bin[13696:488278] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13956fc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1621470757613	Marionette	INFO	Listening on port 49759
+1621470758473	Marionette	INFO	Stopped listening on port 49759
+console.error: (new Error("Connection closed before committing the transaction.", "resource://gre/modules/Sqlite.jsm", 687))
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 687: Error: Connection closed before committing the transaction.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
